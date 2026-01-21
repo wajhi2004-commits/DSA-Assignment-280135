@@ -5,12 +5,12 @@ public class Main {
         DoublyLinkedList dll = new DoublyLinkedList();
 
 
-        dll.insertAtBeginning(10);
+        dll.insertAtBeginning(10);      
         dll.insertAtBeginning(20);
 
        
         dll.insertAtEnd(30);
-        dll.insertAtEnd(40);
+        dll.insertAtEnd(40);        //Complexity = O(1)
         dll.insertAtEnd(5);
         dll.insertAtEnd(50);
 
